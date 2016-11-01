@@ -8,3 +8,5 @@
 * Test02: SaveRandomNumToMySQL
 * Test03: SaveRandomNumToRedis
 * Test04: WordCount&&TopN
+* Test05: ChangePictureDPI
+* Test05: ChangePictureDPI
