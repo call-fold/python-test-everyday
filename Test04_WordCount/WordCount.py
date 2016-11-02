@@ -3,7 +3,7 @@ __author__ = "call_fold"
 import re
 import Test03_SaveRandomNumToRedis.SaveRandomNumToRedis
 
-def word_count(path):
+def word_count(path, ignore_word_list):
     file = open(path, 'r')
 
     _wordcount = {}
@@ -11,10 +11,12 @@ def word_count(path):
     for line in file:
         new_line = re.sub('[^a-zA-Z]', ' ', line)
         for word in new_line.split():
-            if word not in _wordcount:
-                _wordcount[word] = 1
-            else:
-                _wordcount[word] += 1
+            word = word.lower()
+            if word not in ignore_word_list:
+                if word not in _wordcount:
+                    _wordcount[word] = 1
+                else:
+                    _wordcount[word] += 1
 
     file.close()
 
@@ -33,7 +35,7 @@ def top_n(input_wordcount, n):
     return top_n_list
 
 if __name__ == '__main__':
-    wordcount = word_count('LICENSE.md')
+    wordcount = word_count('LICENSE.md', [])
     num_topN = 10
     topN = top_n(wordcount, num_topN)
     table_name = 'word_count_top_n'

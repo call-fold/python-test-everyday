@@ -10,3 +10,9 @@
 * Test04: WordCount&&TopN
 * Test05: ChangePictureDPI
 * Test05: ChangePictureDPI
+* Test06: FindMostImportantWords
+
+#### Will Do:
+
+* find a file type to store ignore word list (json or something)
+* find a huge ignore word list on Internet

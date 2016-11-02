@@ -4,9 +4,9 @@ from PIL import Image
 import os
 import glob
 
-def get_pictures_name(source_path):
+def get_files_name(source_path, kind_of_file):
     target_picture_list = []
-    for file in glob.glob(source_path + "/*.jpg"):
+    for file in glob.glob(source_path + "/*." + kind_of_file):
         file_path, file_name = os.path.split(file)
         target_picture_list.append(file_name)
     return target_picture_list
@@ -20,7 +20,7 @@ def check_folder(target_dir):
 
 def change_picture_dpi(source_path, target_path):
     iphone5_size = (1136, 640)
-    picture_list = get_pictures_name(source_path)
+    picture_list = get_files_name(source_path, 'jpg')
     for picture in picture_list:
         image = Image.open(source_path + '/%s' % picture)
         current_size = image.size
