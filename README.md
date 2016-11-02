@@ -10,7 +10,7 @@
 * Test04: WordCount&&TopN
 * Test05: ChangePictureDPI
 * Test05: ChangePictureDPI
-* Test06: FindMostImportantWords
+* Test06: FindMostImportantWord
 
 #### Will Do:
 
