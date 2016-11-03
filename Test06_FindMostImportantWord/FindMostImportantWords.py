@@ -1,13 +1,13 @@
 __author__ = "call_fold"
 
 import Test04_WordCount.WordCount
-import Test05_ChangePictureDPI.ChangePictureDPI
+import Common.FileCommon
 import IgnoreWordList.IgnoreWordList
 import os
 
 
 def find_most_important_words(source_path, kind_of_file, num_of_words):
-    file_name_list = Test05_ChangePictureDPI.ChangePictureDPI.get_files_name(source_path, kind_of_file)
+    file_name_list = Common.FileCommon.get_file_name_list_by_kind(source_path, kind_of_file)
     most_important_word_list = []
 
     for file_name in file_name_list:

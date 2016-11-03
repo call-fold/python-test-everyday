@@ -11,6 +11,7 @@
 * Test05: ChangePictureDPI
 * Test05: ChangePictureDPI
 * Test06: FindMostImportantWord
+* Test07: CountLineNumOfProgram
 
 #### Will Do:
 
