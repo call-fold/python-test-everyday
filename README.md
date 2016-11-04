@@ -12,8 +12,14 @@
 * Test05: ChangePictureDPI
 * Test06: FindMostImportantWord
 * Test07: CountLineNumOfProgram
+* Test08: FindContentFromHTML
 
 #### Will Do:
 
-* find a file type to store ignore word list (json or something)
-* find a huge ignore word list on Internet
+* Test06:
+    - find a file type to store ignore word list (json or something)
+    - find a huge ignore word list on Internet
+* Test07:
+    - separate code && text
+* Test08:
+    - learn more about how to use BeautifulSoup
