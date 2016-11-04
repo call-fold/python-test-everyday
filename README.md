@@ -1,5 +1,5 @@
 ## 每天一个Python小练习
-## Python Test Everyday
+## [Python Test Everyday](https://github.com/Yixiaohan/show-me-the-code)
 
 ----
 
@@ -22,4 +22,4 @@
 * Test07:
     - separate code && text
 * Test08:
-    - learn more about how to use BeautifulSoup
+    - learn more about how to use BeautifulSoup, [BeautifulSoup_Doc](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
