@@ -14,6 +14,7 @@
 * Test07: CountLineNumOfProgram
 * Test08: FindContentFromHTML
 * Test09: FindAllLinksFromHTML
+* Test10: GenerateRandomLetters
 
 #### Will Do:
 
