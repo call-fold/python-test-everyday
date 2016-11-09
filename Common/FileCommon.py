@@ -55,5 +55,5 @@ if __name__ == '__main__':
     # print(get_file_path_list_by_kind('../', 'md'))
     # print(get_file_name_list('../'))
     # print(get_file_name_list_by_kind('../', 'md'))
-    # check_folder(os.path.abspath('.'), 'test')
-    print(file_len(os.path.abspath('FileCommon.py')))
+    print(check_folder(os.path.abspath('.'), 'test'))
+    # print(file_len(os.path.abspath('FileCommon.py')))

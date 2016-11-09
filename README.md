@@ -15,6 +15,7 @@
 * Test08: FindContentFromHTML
 * Test09: FindAllLinksFromHTML
 * Test10: GenerateRandomLetters
+* Test13: PictureCrawler
 
 #### Will Do:
 
@@ -25,3 +26,5 @@
     - separate code && text
 * Test08:
     - learn more about how to use BeautifulSoup, [BeautifulSoup_Doc](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+* Test13:
+    - make it a more common frame to download images
