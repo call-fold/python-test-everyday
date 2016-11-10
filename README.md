@@ -15,6 +15,7 @@
 * Test08: FindContentFromHTML
 * Test09: FindAllLinksFromHTML
 * Test10: GenerateRandomLetters
+* Test11: FilteredWords
 * Test13: PictureCrawler
 
 #### Will Do:
