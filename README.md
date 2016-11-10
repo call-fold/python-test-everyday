@@ -16,6 +16,7 @@
 * Test09: FindAllLinksFromHTML
 * Test10: GenerateRandomLetters
 * Test11: FilteredWords
+* Test12: ExchangeFilteredWords
 * Test13: PictureCrawler
 
 #### Will Do:
@@ -27,5 +28,7 @@
     - separate code && text
 * Test08:
     - learn more about how to use BeautifulSoup, [BeautifulSoup_Doc](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+* Test12:
+    - separate Chinese and English in filtered words set
 * Test13:
     - make it a more common frame to download images
